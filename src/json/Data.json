@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "The Couch Lamp",
+    "price": 1200,
+    "image": "imag1",
+    "imageoff": "lamp2"
+  },
+  {
+    "id": 2,
+    "name": "The Dining Lamp",
+    "price": 3800,
+    "image": "imag2",
+    "imageoff": "lamp3"
+  },
+  {
+    "id": 3,
+    "name": "The Desk Lamp",
+    "price": 800,
+    "image": "imag5",
+    "imageoff": "lamp4"
+  },
+  {
+    "id": 4,
+    "name": "The Lounge Lamp",
+    "price": 2350,
+    "image": "imag4",
+    "imageoff": "lamp5"
+
+  }
+]
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
