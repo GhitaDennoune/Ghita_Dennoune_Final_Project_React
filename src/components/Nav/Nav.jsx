@@ -62,7 +62,7 @@ function Nav() {
                 <li>
                   <a
                     href="#"
-                    className="block  text-white px-4 py-2  font-extralight  text-[15px]  hover:text-[#e65540]"
+                    className="block  text-white px-4 py-2  font-extralight  text-[15px]  hover:text-[#e65540] "
                   >
                     Home 1
                   </a>
@@ -70,7 +70,7 @@ function Nav() {
                 <li>
                   <a
                     href="#"
-                    className="block px-4 text-white py-2  hover:text-[#e65540]   font-extralight  text-[15px]"
+                    className="block px-4 text-white py-2  hover:text-[#e65540] font-extralight  text-[15px]"
                   >
                     Home 2
                   </a>
@@ -78,7 +78,7 @@ function Nav() {
                 <li>
                   <a
                     href="#"
-                    className="block px-4 text-white py-2  hover:text-[#e65540]    font-extralight  text-[15px]"
+                    className="block px-4 text-white py-2  hover:text-[#e65540]     font-extralight  text-[15px]"
                   >
                     Home 3
                   </a>
