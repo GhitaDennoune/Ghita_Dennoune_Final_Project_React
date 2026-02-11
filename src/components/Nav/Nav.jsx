@@ -6,6 +6,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
+import {Link} from "react-router-dom"
 
 function Nav() {
   return (
@@ -105,11 +106,11 @@ function Nav() {
             </a>
 
 
-
+<Link to = "/about" className="hover:text-black transition  font-extralight  text-[15px]">
             <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">
               About
             </a>
-
+</Link>
             <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">
               Contact
             </a>

@@ -3,13 +3,6 @@ import React from "react";
 
 function Footer() {
     return (
-
-
-
-
-
-
-
         <footer className="bg-gray-100 text-gray-700 pt-16 pb-8 px-6 md:px-12 h-[400px]">
             <div className="max-w-7xl mx-auto">
 
