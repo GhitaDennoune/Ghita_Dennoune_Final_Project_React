@@ -8,6 +8,7 @@ import { Image } from "../../constant/images";
 
 function About() {
   return (
+    
     <section className="flex flex-col gap-15">
       <div className="relative w-full">
        <img src={Image.About} alt="" className="w-[100%]    "/>

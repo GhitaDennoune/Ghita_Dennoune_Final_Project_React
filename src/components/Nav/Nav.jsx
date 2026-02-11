@@ -105,15 +105,15 @@ function Nav() {
               Blog
             </a>
 
+<Link to="/about" className="hover:text-black transition  font-extralight  text-[15px]">
 
-<Link to = "/about" className="hover:text-black transition  font-extralight  text-[15px]">
-            <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">
               About
-            </a>
-</Link>
-            <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">
+            </Link>
+            
+<Link to="/contact" className="hover:text-black transition  font-extralight  text-[15px]">
+
               Contact
-            </a>
+            </Link>
 
 
           </div>
