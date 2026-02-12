@@ -1,7 +1,16 @@
-import Footer from "../Footer/Footer"
+import Footer from "../../components/Footer/Footer"
 import { Image } from "../../constant/images";
+import { useContext, useState } from "react";
+import { MoviesContext } from "../../context/context";
 
 function Home() {
+
+
+
+const findsection = useContext(MoviesContext) 
+
+
+
   return (
     <>
     <section>
@@ -162,6 +171,100 @@ function Home() {
 
   </div>
 </div>
+
+
+{/* our Blog  */}
+
+<section className="w-full h-[1100px] flex flex-col pt-20   items-center gap-20   ">
+
+<div className="text-[30px] font-bold"> OUR BLOG</div>
+<div className=" flex flex-col gap-9  ">
+
+
+ <div className="grid grid-cols-3 gap-10 w-[1200px] pb-10">
+      {findsection.map((item) => (
+        <div key={item.id} className="flex flex-col gap-4">
+          <img
+            src={item.image}
+            alt={item.title}
+            className="w-full h-[300px] object-cover"
+          />
+
+          <h2 className="text-xl font-semibold">{item.title}</h2>
+
+          <p className="text-sm text-gray-500">
+            by {item.author} on {item.date}
+          </p>
+
+          <p className="text-gray-600">{item.description}</p>
+        </div>
+      ))}
+    </div>
+
+
+
+
+
+
+
+<div className="">
+
+<div className=" flex  flex-col gap-26 items-center jusrift-center  ">
+<p className="text-[30px] font-medium text-center">@ FOLLOW US ON INSTAGRAM</p>
+<div className="flex  gap-20">
+
+
+
+<div>
+  <p className="font-extralight text-center text-[20px] ">Free Delivery Worldwide</p>
+  <p className="font-extralight text-gray-400  ">Mirum est notare quam littera gothica</p>
+</div>
+
+<div className="border-l-2 border-gray-200 ml-4 pl-5">
+  <p className="font-extralight text-center text-[20px]   ">30 Days Return</p>
+  <p className="font-extralight text-gray-400 ">Simply return it within 30 days for an exchange.</p>
+</div>
+
+<div className="border-l-2 border-gray-200 ml-4 pl-5">
+  <p className="font-extralight  text-center text-[20px]">Store Opening</p>
+  <p className="font-extralight text-gray-400 ">Shop open from Monday to Sunday</p>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+<div></div>
+<div></div>
+
+
+
+
+
+</div>
+
+
+  
+</section>
+
 
 
 

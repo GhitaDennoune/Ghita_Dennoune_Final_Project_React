@@ -1,4 +1,4 @@
-import Footer from "../Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 import { Image } from "../../constant/images";
 
@@ -18,7 +18,7 @@ function About() {
       </div>
 
 
-      <div className="flex  justify-center gap-13  ">
+      <div className="flex  justify-center  gap-13  ">
         <div className="overflow-hidden">
         <img src={Image.shopy} alt="" className="w-[370px] h-[425px]   object-cover   transition-transform duration-500 ease-in-out hover:scale-120" />
 

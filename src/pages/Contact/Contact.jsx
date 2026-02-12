@@ -1,7 +1,7 @@
 
 
          import React from "react";
-import Footer from "../Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 import { Image } from "../../constant/images";
 
 function Contact() {

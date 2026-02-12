@@ -1,34 +1,30 @@
 [
   {
     "id": 1,
-    "name": "The Couch Lamp",
-    "price": 1200,
-    "image": "imag1",
-    "imageoff": "lamp2"
+    "image": "blog1",
+    "title": "Black Friday Guide: Best Sales & Discount Codes",
+    "author": "fashe-theme Admin",
+    "date": "Dec 28, 2017",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed turpis sed lorem dignissim vulputate nec cursus ante. Nunc sit..."
   },
   {
     "id": 2,
-    "name": "The Dining Lamp",
-    "price": 3800,
-    "image": "imag2",
-    "imageoff": "lamp3"
+    "image": "blog2",
+    "title": "The White Sneakers Nearly Every Fashion Girls Own",
+    "author": "fashe-theme Admin",
+    "date": "Dec 28, 2017",
+    "description": "Duis ut velit gravida nibh bibendum commodo. Suspendisse pellentesque mattis augue id euismod. Interdum et..."
   },
   {
     "id": 3,
-    "name": "The Desk Lamp",
-    "price": 800,
-    "image": "imag5",
-    "imageoff": "lamp4"
-  },
-  {
-    "id": 4,
-    "name": "The Lounge Lamp",
-    "price": 2350,
-    "image": "imag4",
-    "imageoff": "lamp5"
-
+    "image": "blog3",
+    "title": "New York SS 2018 Street Style: By Annina Mislin",
+    "author": "fashe-theme Admin",
+    "date": "Dec 28, 2017",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed turpis sed lorem dignissim vulputate nec cursus ante. Nunc sit..."
   }
 ]
+
 
 
   
