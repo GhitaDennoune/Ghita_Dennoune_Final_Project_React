@@ -123,8 +123,10 @@ function Nav() {
 
 
           <div className="flex items-center gap-6 text-gray-600">
-
-            <FaUserCircle />
+<Link to="/user" >
+ <FaUserCircle />
+</Link>
+           
 
             <HiOutlineShoppingBag />
           </div>
