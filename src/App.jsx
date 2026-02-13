@@ -13,7 +13,7 @@ import Register from "./components/Registre/Registre"
 import Blog from "./pages/Blog/Blog"
 import Sale from "./pages/Sale/Sale"
 import  Features  from "../src/pages/Features/Features"
-
+import Panier from "./pages/panier/Panier"
 export default function App() {
   return (
     <>
@@ -28,6 +28,8 @@ export default function App() {
         <Route path="/shop" element={<Shop/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/sale" element={<Sale/>}/>
+        <Route path="/panier" element={<Panier/>}/>
+        <Route path="/features" element={<Features/>}/>
 
       </Routes>
     </MoviesProvider>

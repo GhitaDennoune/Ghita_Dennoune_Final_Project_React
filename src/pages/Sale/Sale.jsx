@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { MoviesContext } from "../../context/context";
 import Footer from "../../components/Footer/Footer";
 
+import {Link} from "react-router-dom"
 
 
 
@@ -32,7 +33,11 @@ function Sale (){
 return(
 
 <>
-
+<Link to="/" className="hover:text-black transition    font-extralight  text-[15px]">
+                Home
+              </Link> /  <Link to="/sale" className="hover:text-black transition  font-extralight  text-[15px]">
+              Sale
+            </Link>
  <div className="p-20 min-h-screen">
 
       <h1 className="text-3xl mb-10">

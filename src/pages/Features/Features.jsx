@@ -1,7 +1,7 @@
 function Sale() {
 
 return(
-<h1>    Search</h1>
+<h1>    Feauter</h1>
 
 )
 

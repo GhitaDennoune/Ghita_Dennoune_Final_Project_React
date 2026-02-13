@@ -6,6 +6,10 @@ import { useState } from "react";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { MoviesContext } from "../../context/context";
+import {Link} from "react-router-dom"
+// import Modal from "../../components/Modal/Modal";
+
+
 
 function Shop() {
 
@@ -262,13 +266,33 @@ function Shop() {
 
                                 {productsToShow.map((item) => (
                                     <div key={item.id}>
-                                        <img
+                                        <div className="relative group overflow-hidden ">
+ <img
                                             src={item.image}
                                             alt=""
-                                            className="w-full h-[400px] object-cover"
+                                            className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-110 bg-black  "
                                         />
-                                        <h3>{item.title}</h3>
+  <div className="absolute inset-0   group-hover: bg-opacity-40 transition-opacity duration-500 flex items-center justify-center ">
+    <button
+        onClick={() => addToCart(item)}
+      className="opacity-0 group-hover:opacity-100 bg-black text-white px-6 py-2 rounded font-medium text-sm transition"
+    >
+      Add to Cart
+    </button>
+  </div>
+
+                                        </div>
+                                       
+  
+
+                                          <div className="p-4">
+                                            
+                                            
+                                            <h3>{item.title}</h3>
                                         <p>¥{item.price}</p>
+                                            
+                                            </div>                                        
+                                        
                                     </div>
                                 ))}
 

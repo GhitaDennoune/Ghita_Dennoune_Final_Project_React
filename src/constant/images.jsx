@@ -21,8 +21,9 @@ import shop5 from "../assets/images (1)/images/shopy5.webp"
 import shop6 from "../assets/images (1)/images/shopy7.webp"
 import shop7 from "../assets/images (1)/images/shopy8.webp"
 import shop8 from "../assets/images (1)/images/item-03.jpg"
-
-
+import caroussel from "../assets/images (1)/images/carousel1.jpg"
+import caroussel2 from "../assets/images (1)/images/carousel2.jpg"
+import caroussel3 from "../assets/images (1)/images/carousel3.webp"
 export const Image = {
- reactsvg,logo,shopy,About,model1,card1,card3,card4,item1,card2,model2,item9,blog1,blog2,blog3,shop1,shop2,shop3,shop4,shop5,shop6,shop7,shop8
+ reactsvg,logo,shopy,About,model1,card1,card3,card4,item1,card2,model2,item9,blog1,blog2,blog3,shop1,shop2,shop3,shop4,shop5,shop6,shop7,shop8,caroussel,caroussel2,caroussel3
 }

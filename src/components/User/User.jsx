@@ -3,9 +3,42 @@
 
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
-
+import { useState } from "react";
 
 function User (){
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loggedUsers, setLoggedUsers] = useState([]);
+ 
+const handleLogin = () => {
+
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+
+    const foundUser = users.find(
+      (user) => user.email === email && user.password === password
+    );
+
+    if (foundUser) {
+
+      setLoggedUsers((prev) => {
+        const updated = [...prev, foundUser]; 
+        console.log("Logged Users:", updated); 
+        return updated;
+      });
+
+      alert("Login successful ");
+
+    } else {
+      alert("Email not found  Please register first.");
+    }
+  };
+
+
+
+
+
+
     return(
 
 <>
@@ -48,12 +81,12 @@ Account
 <p className="text-[30px] font-extralight">Returning Customer</p>
 <p className="text-gray-400">I am a returning customer</p>
 <label htmlFor="">Email</label>
-<input type="text" placeholder="Email" className="w-full border border-gray-300 p-3 rounded" />
+<input type="text" value={email}  onChange={(e) => setEmail(e.target.value)} placeholder="Email"     className="w-full border border-gray-300 p-3 rounded" />
 <label htmlFor="">Password</label>
-<input type="text" placeholder="Password" className="w-full border border-gray-300 p-3 rounded" />
+<input type="text"  value={password}  onChange={(e) => setPassword(e.target.value)}  placeholder="Password" className="w-full border border-gray-300 p-3 rounded" />
 <p>Forgot your password?</p>
 <div className="flex items-center ">
-<button className="text-white  py-2 px-4 rounded bg-black w-[140px]">SIGIN IN</button>
+<button onClick={handleLogin}  className="text-white  py-2 px-4 rounded bg-black w-[140px]">SIGIN IN</button>
 <p>or <span> Return to Store</span></p>
 </div>
 

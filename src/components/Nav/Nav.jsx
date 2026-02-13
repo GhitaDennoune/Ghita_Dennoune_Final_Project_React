@@ -7,8 +7,13 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import {Link} from "react-router-dom"
+import { useContext } from "react";
 
 function Nav() {
+
+const { cartItems } = useContext(MoviesContext);
+
+
   return (
 
     // mini navbare
@@ -101,9 +106,9 @@ function Nav() {
               Features
             </a>
 
-            <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">
+            <Link to="/blog" className="hover:text-black transition  font-extralight  text-[15px]">
               Blog
-            </a>
+            </Link>
 
 <Link to="/about" className="hover:text-black transition  font-extralight  text-[15px]">
 
@@ -128,7 +133,23 @@ function Nav() {
 </Link>
            
 
-            <HiOutlineShoppingBag />
+
+<Link to="/panier" className="relative text-gray-600">
+            <HiOutlineShoppingBag size={24} />
+ {cartItems.length > 0 && (
+          <span className="absolute -top-2 -right-2 bg-black text-white rounded-full px-2 text-xs">
+            {cartItems.length}
+          </span>
+        )}
+              </Link>
+
+
+
+
+
+
+
+
           </div>
 
 
