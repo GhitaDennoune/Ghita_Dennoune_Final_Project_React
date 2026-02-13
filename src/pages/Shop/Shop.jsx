@@ -5,20 +5,20 @@ import couress, { couress2 } from "../../constant/data";
 import { useState } from "react";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import  { MoviesContext } from "../../context/context";
+import { MoviesContext } from "../../context/context";
 
 function Shop() {
 
-const { search, setSearch } = useContext(MoviesContext);
-const navigate = useNavigate();
+    const { search, setSearch } = useContext(MoviesContext);
+    const navigate = useNavigate();
 
-const handleSearch = (e) => {
-    if (e.key === "Enter") {
-        if (search !== "") {
-            navigate("/sale");
+    const handleSearch = (e) => {
+        if (e.key === "Enter") {
+            if (search !== "") {
+                navigate("/sale");
+            }
         }
-    }
-};
+    };
 
 
 
@@ -47,7 +47,7 @@ const handleSearch = (e) => {
 
 
 
-     if (selectedPrice === "0-20") {
+    if (selectedPrice === "0-20") {
         filteredProducts = filteredProducts.filter(
             (item) => item.price >= 0 && item.price <= 20
         );
@@ -65,7 +65,7 @@ const handleSearch = (e) => {
         productsToShow = filteredProducts.slice(6, 8);
     }
 
-   
+
 
 
     return (
@@ -82,7 +82,7 @@ const handleSearch = (e) => {
 
                 <div className="w-full min-h-screen flex gap-12 px-20 py-16 ">
 
-                    <div className="w-[260px] flex flex-col gap-10 bg-red-100">
+                    <div className="w-[260px] flex flex-col gap-10">
 
                         <div className="flex flex-col gap-4  ">
                             <h2 className="text-2xl font-bold">Categories</h2>
@@ -209,18 +209,18 @@ const handleSearch = (e) => {
                             </div>
                         </div>
 
-                     <input
-    type="text"
-    placeholder="Search..."
-    value={search}
-    onChange={(e) => setSearch(e.target.value)}
-    onKeyDown={handleSearch}
-    className="border border-gray-300 p-3 rounded"
-/>
+                        <input
+                            type="text"
+                            placeholder="Search..."
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
+                            onKeyDown={handleSearch}
+                            className="border border-gray-300 p-3 rounded"
+                        />
 
                     </div>
 
-                    <div className="flex-1 bg-blue-100 ">
+                    <div className="flex-1  ">
 
                         <div className="flex justify-between items-center mb-12">
 

@@ -92,9 +92,9 @@ function Nav() {
             </Link>
 
 
-            <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">
+            <Link to="/sale" className="hover:text-black transition  font-extralight  text-[15px]">
               Sale
-            </a>
+            </Link>
 
 
             <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">

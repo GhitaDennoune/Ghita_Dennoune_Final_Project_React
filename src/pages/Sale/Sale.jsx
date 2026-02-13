@@ -1,5 +1,6 @@
 import { useContext } from "react"; 
 import { MoviesContext } from "../../context/context";
+import Footer from "../../components/Footer/Footer";
 
 
 
@@ -30,6 +31,7 @@ function Sale (){
 
 return(
 
+<>
 
  <div className="p-20 min-h-screen">
 
@@ -40,7 +42,7 @@ return(
       {filteredProducts.length === 0 ? (
         <p>No products found</p>
       ) : (
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-3 gap-5">
           {filteredProducts.map((item) => (
             <div key={item.id}>
               <img
@@ -56,6 +58,18 @@ return(
       )}
 
     </div>
+    <Footer/>
+
+
+
+
+
+
+
+
+
+</>
+
 
 )
 
