@@ -6,9 +6,14 @@ import About from "./pages/About/About"
 import Main from "./components/Main/Main"
 import Footer from "./components/Footer/Footer"
 import Contact from "./pages/Contact/Contact"
+import Shop from "./pages/Shop/Shop"
 import { MoviesProvider } from "./context/context"
 import User from "./components/User/User"
 import Register from "./components/Registre/Registre"
+import Blog from "./pages/Blog/Blog"
+import Sale from "./pages/Sale/Sale"
+import  Features  from "../src/pages/Features/Features"
+
 export default function App() {
   return (
     <>
@@ -20,6 +25,10 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/user" element={<User/>}/>
         <Route path="/registre" element={<Register/>}/>
+        <Route path="/shop" element={<Shop/>}/>
+        <Route path="/blog" element={<Blog/>}/>
+        <Route path="/sale" element={<Sale/>}/>
+
       </Routes>
     </MoviesProvider>
     </>

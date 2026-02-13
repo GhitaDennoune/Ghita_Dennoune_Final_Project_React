@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Boxy T-Shirt with Roll Sleeve Detail",
+    "price": 39,
+    "currency": "¥",
+    "color": "Black",
+    "size": "M",
+    "image": "shop1"
+  },
+  {
+    "id": 2,
+    "title": "Boxy1 T-Shirt with Roll Sleeve",
+    "price": 25,
+    "currency": "¥",
+    "color": "Gray",
+    "size": "L",
+    "image": "shop2"
+  },
+  {
+    "id": 3,
+    "title": "Boxy2 T-Shirt with Roll Sleeve",
+    "price": 15,
+    "currency": "¥",
+    "color": "Red",
+    "size": "S",
+    "image": "shop3"
+  },
+  {
+    "id": 4,
+    "title": "Boxy3 T-Shirt with Roll Sleeve",
+    "price": 20,
+    "currency": "¥",
+    "color": "Black",
+    "size": "XL",
+    "image": "shop4"
+  },
+  {
+    "id": 5,
+    "title": "Boxy4 T-Shirt with Roll Sleeve",
+    "price": 10,
+    "currency": "¥",
+    "color": "Gray",
+    "size": "M",
+    "image": "shop5"
+  },
+  {
+    "id": 6,
+    "title": "Boxy5 T-Shirt with Roll Sleeve",
+    "price": 5,
+    "currency": "¥",
+    "color": "Red",
+    "size": "L",
+    "image": "shop8"
+  },
+  {
+    "id": 7,
+    "title": "Boxy6 T-Shirt with Roll Sleeve",
+    "price": 30,
+    "currency": "¥",
+    "color": "Black",
+    "size": "S",
+    "image": "shop6"
+  },
+  {
+    "id": 8,
+    "title": "Boxy7 T-Shirt with Roll Sleeve",
+    "price": 40,
+    "currency": "¥",
+    "color": "Gray",
+    "size": "XL",
+    "image": "shop7"
+  }
+]

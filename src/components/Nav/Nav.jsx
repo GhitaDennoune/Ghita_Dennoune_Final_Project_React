@@ -55,11 +55,11 @@ function Nav() {
 
 
             <li className="relative group list-none  ">
-              <a href="#" className="hover:text-black transition    font-extralight  text-[15px]">
+              <Link to="/" className="hover:text-black transition    font-extralight  text-[15px]">
                 Home
-              </a>
+              </Link>
 
-              <ul className="absolute w-[225px]  left-0  py-2   bg-[#222] border border-gray-200  shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
+              <ul className="absolute w-[225px]  left-0  py-2  z-15  bg-[#222] border border-gray-200  shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
                 <li>
                   <a
                     href="#"
@@ -87,9 +87,9 @@ function Nav() {
 
               </ul>
             </li>
-            <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">
+            <Link to="/shop" className="hover:text-black transition  font-extralight  text-[15px]">
               Shop
-            </a>
+            </Link>
 
 
             <a href="#" className="hover:text-black transition  font-extralight  text-[15px]">

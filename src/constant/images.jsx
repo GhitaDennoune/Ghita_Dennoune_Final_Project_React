@@ -13,17 +13,16 @@ import item9 from "../assets/images (1)/images/shop-item-09.jpg"
 import blog1 from "../assets/images (1)/images/blog-01.jpg"
 import blog2 from "../assets/images (1)/images/blog-02.jpg"
 import blog3 from "../assets/images (1)/images/blog-03.jpg"
-
-
-
-
-
-
-
-
-
+import shop1 from "../assets/images (1)/images/shopy6.webp"
+import shop2 from "../assets/images (1)/images/shopi2.webp"
+import shop3 from "../assets/images (1)/images/shopy3.webp"
+import shop4 from "../assets/images (1)/images/shopy4.webp"
+import shop5 from "../assets/images (1)/images/shopy5.webp"
+import shop6 from "../assets/images (1)/images/shopy7.webp"
+import shop7 from "../assets/images (1)/images/shopy8.webp"
+import shop8 from "../assets/images (1)/images/item-03.jpg"
 
 
 export const Image = {
- reactsvg,logo,shopy,About,model1,card1,card3,card4,item1,card2,model2,item9,blog1,blog2,blog3
+ reactsvg,logo,shopy,About,model1,card1,card3,card4,item1,card2,model2,item9,blog1,blog2,blog3,shop1,shop2,shop3,shop4,shop5,shop6,shop7,shop8
 }

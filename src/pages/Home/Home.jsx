@@ -7,7 +7,7 @@ function Home() {
 
 
 
-const findsection = useContext(MoviesContext) 
+const { couress } = useContext(MoviesContext)
 
 
 
@@ -182,7 +182,7 @@ const findsection = useContext(MoviesContext)
 
 
  <div className="grid grid-cols-3 gap-10 w-[1200px] pb-10">
-      {findsection.map((item) => (
+      {couress.map((item) => (
         <div key={item.id} className="flex flex-col gap-4">
           <img
             src={item.image}
